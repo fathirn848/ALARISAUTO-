@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog 4 -Rolls Royce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#121212] text-zinc-100 flex flex-col min-h-screen">
+
+    <!-- Header Navigation -->
+    <header class="bg-[#1A1A1A] text-white sticky top-0 z-50 border-b border-[#C5A059]/20 shadow-xl">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-widest text-[#C5A059] flex items-center">
+                <i class="fa-solid fa-car-side mr-4"></i>ALARIS AUTO
+            </a>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm tracking-wider uppercase">
+                <a href="index.html" class="hover:text-[#C5A059] transition">Beranda</a>
+                <a href="tentang-kami.html" class="hover:text-[#C5A059] transition">tentang-kami</a>
+                <a href="product.html" class="text-[#C5A059] font-bold">Katalog Sedan</a>
+                <a href="kontak.html" class="hover:text-[#C5A059] transition">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-semibold px-5 py-2 rounded-md transition shadow-md">Test Drive</a>
+        </div>
+    </header>
+
+    <main class="py-12 px-6 flex-grow container mx-auto">
+        <a href="product.html" class="text-[#C5A059] hover:underline text-sm font-semibold flex items-center mb-8">
+            <i class="fa-solid fa-arrow-left mr-2"></i> Kembali ke Katalog Sedan
+        </a>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <!-- Foto Utama -->
+            <div class="bg-[#1E1E1E] p-2 rounded-2xl border border-zinc-800">
+                <img src="rr.png" alt="Rolls Royce " class="w-full h-96 object-cover rounded-xl">
+            </div>
+
+            <div class="space-y-8">
+                <div>
+                    <span class="bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">Katalog 4 - Luxury Car </span>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-white mt-3">Rolls Royce</h1>
+                    <p class="text-2xl font-bold text-[#C5A059] mt-2">Rp 3.500.000.000 <span class="text-xs text-zinc-400 font-normal">(OTR Jakarta)</span></p>
+                </div>
+
+                <!-- Performa -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-leaf text-[#C5A059] mr-2"></i> Performa Mesin Clasic
+                    </h2>
+                    <div class="grid grid-cols-2 gap-4 text-sm">
+                        <div><p class="text-zinc-500">Tipe Mesin</p><p class="text-white font-bold">3.5L Hybrid System</p></div>
+                        <div><p class="text-zinc-500">Air Exhaust</p><p class="text-white font-bold">Dual Exhaust</p></div>
+                        <div><p class="text-zinc-500">Atap Kabin</p><p class="text-white font-bold">Panoramic Roof</p></div>
+                        <div><p class="text-zinc-500">Konsumsi BBM</p><p class="text-white font-bold">12 km / Liter</p></div>
+                    </div>
+                </div>
+
+                <!-- Keunggulan -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-star text-[#C5A059] mr-2"></i> Keunggulan Utama
+                    </h2>
+                    <ul class="space-y-2 text-sm text-zinc-300">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Panoramic Glass Roof Seluas Kabin</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Audio Bose Premium Surround 12 Speaker</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Kursi Kulit Ergonomis Pijat Otomatis</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Suspension Level Dewa </li>
+                    </ul>
+                </div>
+
+                <!-- Pilihan Warna Interaktif (Radio Button) -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-2 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-palette text-[#C5A059] mr-2"></i> Pilih Warna Favorit
+                    </h2>
+                    <p class="text-xs text-zinc-400 mb-4">Pilih salah satu warna yang Anda inginkan:</p>
+                    
+                    <form class="flex flex-wrap gap-4">
+                        <!-- Opsi 1: Midnight Blue -->
+                        <label class="cursor-pointer group flex items-center space-x-3 bg-[#121212] p-3 rounded-lg border border-zinc-700 hover:border-[#C5A059] transition">
+                            <input type="radio" id="midnight_blue" name="pilihan_warna" value="Midnight Blue" class="accent-[#C5A059] w-4 h-4 cursor-pointer" checked>
+                            <div class="w-5 h-5 rounded-full bg-blue-950 border border-zinc-600"></div>
+                            <span class="text-sm text-zinc-200 group-hover:text-white font-medium">Midnight Blue</span>
+                        </label>
+
+                        <!-- Opsi 2: Champagne Gold -->
+                        <label class="cursor-pointer group flex items-center space-x-3 bg-[#121212] p-3 rounded-lg border border-zinc-700 hover:border-[#C5A059] transition">
+                            <input type="radio" id="champagne_gold" name="pilihan_warna" value="Champagne Gold" class="accent-[#C5A059] w-4 h-4 cursor-pointer">
+                            <div class="w-5 h-5 rounded-full bg-[#C5A059] border border-zinc-600"></div>
+                            <span class="text-sm text-zinc-200 group-hover:text-white font-medium">Champagne Gold</span>
+                        </label>
+
+                        <!-- Opsi 3: Deep Black -->
+                        <label class="cursor-pointer group flex items-center space-x-3 bg-[#121212] p-3 rounded-lg border border-zinc-700 hover:border-[#C5A059] transition">
+                            <input type="radio" id="deep_black" name="pilihan_warna" value="Deep Black" class="accent-[#C5A059] w-4 h-4 cursor-pointer">
+                            <div class="w-5 h-5 rounded-full bg-[#121212] border-2 border-[#C5A059]"></div>
+                            <span class="text-sm text-zinc-200 group-hover:text-white font-medium">Deep Black</span>
+                        </label>
+                    </form>
+                </div>
+
+                <!-- Pembayaran -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-credit-card text-[#C5A059] mr-2"></i> Sistem Pembayaran
+                    </h2>
+                    <div class="space-y-3 text-sm">
+                        <div class="p-3 bg-[#121212] rounded border border-zinc-800 flex justify-between items-center">
+                            <span><strong class="text-white">Pembayaran Cash</strong></span>
+                            <span class="text-xs bg-[#C5A059]/20 text-[#C5A059] px-2 py-1 rounded">Free Servis 3 Tahun</span>
+                        </div>
+                        <div class="p-3 bg-[#121212] rounded border border-zinc-800 flex justify-between items-center">
+                            <span><strong class="text-white">Kredit Fleksibel</strong></span>
+                            <span class="text-xs bg-zinc-800 text-zinc-300 px-2 py-1 rounded">Tenor Hingga 5 Tahun</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="kontak.html" class="block w-full text-center bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-extrabold py-4 rounded-xl transition shadow-xl text-lg">
+                    Pesan Katalog 3 / Test Drive
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#0B0B0B] text-zinc-500 py-6 px-6 text-center border-t border-zinc-800/80 text-sm">
+        <p>&copy; 2026 Alaris Auto. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaris Apex Sport - Detail Rincian</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#121212] text-zinc-100 flex flex-col min-h-screen">
+
+    <!-- Header Navigation -->
+    <header class="bg-[#1A1A1A] text-white sticky top-0 z-50 border-b border-[#C5A059]/20 shadow-xl">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-widest text-[#C5A059] flex items-center">
+                <i class="fa-solid fa-car-side mr-3"></i>ALARIS AUTO
+            </a>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm tracking-wider uppercase">
+                <a href="index.html" class="hover:text-[#C5A059] transition">Beranda</a>
+                <a href="keunggulan.html" class="hover:text-[#C5A059] transition">Keunggulan</a>
+                <a href="product.html" class="text-[#C5A059] font-bold">Katalog Sedan</a>
+                <a href="kontak.html" class="hover:text-[#C5A059] transition">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-semibold px-5 py-2 rounded-md transition shadow-md">Test Drive</a>
+        </div>
+    </header>
+
+    <main class="py-12 px-6 flex-grow container mx-auto">
+        <a href="product.html" class="text-[#C5A059] hover:underline text-sm font-semibold flex items-center mb-8">
+            <i class="fa-solid fa-arrow-left mr-2"></i> Kembali ke Katalog Sedan
+        </a>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <!-- Galeri Foto Utama -->
+            <div class="bg-[#1E1E1E] p-2 rounded-2xl border border-zinc-800">
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1000&q=80" alt="Alaris Apex Sport" class="w-full h-96 object-cover rounded-xl">
+            </div>
+
+            <!-- Detail Spesifikasi -->
+            <div class="space-y-8">
+                <div>
+                    <span class="bg-[#C5A059]/20 text-[#C5A059] text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">Sport Sedan Series</span>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-white mt-3">Alaris Apex Sport</h1>
+                    <p class="text-2xl font-bold text-[#C5A059] mt-2">Rp 580.000.000 <span class="text-xs text-zinc-400 font-normal">(OTR Jakarta)</span></p>
+                </div>
+
+                <!-- Kecepatan & Performa Mesin -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-gauge-high text-[#C5A059] mr-2"></i> Kecepatan & Performa Mesin
+                    </h2>
+                    <div class="grid grid-cols-2 gap-4 text-sm">
+                        <div>
+                            <p class="text-zinc-500">Tipe Mesin</p>
+                            <p class="text-white font-bold text-base">2.0L Turbocharged</p>
+                        </div>
+                        <div>
+                            <p class="text-zinc-500">Tenaga Maksimal</p>
+                            <p class="text-white font-bold text-base">250 HP</p>
+                        </div>
+                        <div>
+                            <p class="text-zinc-500">Transmisi</p>
+                            <p class="text-white font-bold text-base">Automatic 8-Speed</p>
+                        </div>
+                        <div>
+                            <p class="text-zinc-500">Kecepatan Maksimum</p>
+                            <p class="text-white font-bold text-base">240 km/jam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Keunggulan Utama -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-star text-[#C5A059] mr-2"></i> Keunggulan Utama
+                    </h2>
+                    <ul class="space-y-2 text-sm text-zinc-300">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Mode Berkendara Sport & Paddle Shift Response</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Suspensi Sport Adaptif untuk Akselerasi Stabil</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-[#C5A059] mr-3"></i> Sistem Knalpot Sport Ganda dengan Suara Agresif</li>
+                    </ul>
+                </div>
+
+                <!-- Pilihan Warna -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-palette text-[#C5A059] mr-2"></i> Pilihan Warna
+                    </h2>
+                    <div class="flex space-x-6">
+                        <div class="text-center">
+                            <div class="w-10 h-10 rounded-full bg-[#121212] border-2 border-[#C5A059] mx-auto"></div>
+                            <span class="text-xs text-zinc-400 mt-1 block">Black Apex</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-10 h-10 rounded-full bg-red-700 border-2 border-zinc-700 mx-auto"></div>
+                            <span class="text-xs text-zinc-400 mt-1 block">Crimson Red</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-10 h-10 rounded-full bg-[#C5A059] border-2 border-zinc-700 mx-auto"></div>
+                            <span class="text-xs text-zinc-400 mt-1 block">Gold Metallic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sistem Pembayaran -->
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800">
+                    <h2 class="text-lg font-bold text-white mb-4 border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-credit-card text-[#C5A059] mr-2"></i> Sistem Pembayaran
+                    </h2>
+                    <div class="space-y-3 text-sm">
+                        <div class="p-3 bg-[#121212] rounded border border-zinc-800 flex justify-between items-center">
+                            <span><strong class="text-white">Cash Keras / Bertahap</strong></span>
+                            <span class="text-xs bg-[#C5A059]/20 text-[#C5A059] px-2 py-1 rounded">Diskon Khusus</span>
+                        </div>
+                        <div class="p-3 bg-[#121212] rounded border border-zinc-800 flex justify-between items-center">
+                            <span><strong class="text-white">Kredit Leasing</strong> (DP Mulai 20%)</span>
+                            <span class="text-xs bg-zinc-800 text-zinc-300 px-2 py-1 rounded">Angsuran Mulai 9 Juta/bln</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="kontak.html" class="block w-full text-center bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-extrabold py-4 rounded-xl transition shadow-xl text-lg">
+                    Pesan Alaris Apex Sport / Test Drive
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#0B0B0B] text-zinc-500 py-6 px-6 text-center border-t border-zinc-800/80 text-sm">
+        <p>&copy; 2026 Alaris Auto. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

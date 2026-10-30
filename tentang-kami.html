@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaris Auto - Tentang Kami & Cabang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#121212] text-zinc-100 flex flex-col min-h-screen">
+
+    <!-- Header Navigation -->
+    <header class="bg-[#1A1A1A] text-white sticky top-0 z-50 border-b border-[#C5A059]/20 shadow-xl">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-widest text-[#C5A059] flex items-center">
+                <i class="fa-solid fa-car-side mr-3"></i>ALARIS AUTO
+            </a>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm tracking-wider uppercase">
+                <a href="index.html" class="hover:text-[#C5A059] transition">Beranda</a>
+                <a href="tentang-kami.html" class="text-[#C5A059] font-bold">Tentang Kami</a>
+                <a href="product.html" class="hover:text-[#C5A059] transition">Katalog Sedan</a>
+                <a href="kontak.html" class="hover:text-[#C5A059] transition">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-semibold px-5 py-2 rounded-md transition shadow-md">Test Drive</a>
+        </div>
+    </header>
+
+    <main class="py-16 px-6 flex-grow container mx-auto max-w-5xl space-y-20">
+        
+        <!-- 1. Seputar Info Tentang Kami -->
+        <section class="text-center space-y-4">
+            <span class="text-[#C5A059] font-semibold tracking-widest uppercase text-sm border-b-2 border-[#C5A059] pb-1">Profil Perusahaan</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white">Seputar Alaris Auto</h1>
+            <p class="text-zinc-400 max-w-3xl mx-auto text-base leading-relaxed mt-4">
+               Destinasi utama perpaduan kemewahan dan performa. Kami menghadirkan koleksi mobil sport terkurasi dengan jaminan kualitas mahakarya dan penawaran paling istimewa untuk Anda.
+            </p>
+        </section>
+
+        <!-- 2. Keunggulan Utama (Bagian Atas) -->
+        <section class="space-y-8">
+            <div class="text-center">
+                <h2 class="text-2xl font-bold text-white">Keunggulan Utama Kami</h2>
+                <p class="text-zinc-400 text-sm mt-1">Komitmen layanan terbaik untuk setiap member Alaris Auto</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-[#1E1E1E] p-8 rounded-xl border border-zinc-800 hover:border-[#C5A059]/50 transition">
+                    <div class="text-[#C5A059] text-4xl mb-4"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Garansi 5 Tahun</h3>
+                    <p class="text-zinc-400 text-sm">Perlindungan menyeluruh untuk mesin dan sistem kelistrikan kendaraan Anda.</p>
+                </div>
+                <div class="bg-[#1E1E1E] p-8 rounded-xl border border-zinc-800 hover:border-[#C5A059]/50 transition">
+                    <div class="text-[#C5A059] text-4xl mb-4"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Servis Gratis 3 Tahun</h3>
+                    <p class="text-zinc-400 text-sm">Bebas biaya perawatan rutin dan penggantian oli berkala di bengkel resmi.</p>
+                </div>
+                <div class="bg-[#1E1E1E] p-8 rounded-xl border border-zinc-800 hover:border-[#C5A059]/50 transition">
+                    <div class="text-[#C5A059] text-4xl mb-4"><i class="fa-solid fa-percent"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Bunga Kredit Rendah</h3>
+                    <p class="text-zinc-400 text-sm">Kerja sama dengan leasing terkemuka untuk skema pembiayaan yang fleksibel.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Daftar Cabang Kami (Dropdown Accordion / Interactive Menu) -->
+        <section class="bg-[#1E1E1E] p-8 rounded-2xl border border-zinc-800 shadow-xl space-y-6">
+            <div class="text-center border-b border-zinc-800 pb-6">
+                <span class="text-[#C5A059] font-semibold tracking-widest uppercase text-xs">Jaringan Showroom</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-white mt-1">Daftar Cabang Kami</h2>
+                <p class="text-zinc-400 text-sm mt-1">Klik menu dropdown di bawah untuk memilih dan melihat detail cabang terdekat dari lokasi Anda.</p>
+            </div>
+
+            <!-- Dropdown Cabang Kita -->
+            <details class="group bg-[#121212] rounded-xl border border-zinc-700 overflow-hidden transition">
+                <summary class="flex justify-between items-center p-5 cursor-pointer font-bold text-lg text-[#C5A059] group-open:border-b group-open:border-zinc-800 select-none">
+                    <span class="flex items-center"><i class="fa-solid fa-building-user mr-3"></i> Cabang Kita (Pilih 3 Lokasi Showroom)</span>
+                    <i class="fa-solid fa-chevron-down text-zinc-400 group-open:rotate-180 transition-transform"></i>
+                </summary>
+                
+                <div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#181818]">
+                    
+                    <!-- Cabang 1 -->
+                    <div class="bg-[#1E1E1E] p-5 rounded-xl border border-zinc-800 hover:border-[#C5A059] transition flex flex-col justify-between space-y-4">
+                        <div>
+                            <span class="bg-[#C5A059]/20 text-[#C5A059] text-xs font-bold px-2.5 py-1 rounded">Cabang 1</span>
+                            <h3 class="text-lg font-bold text-white mt-2">Showroom USA </h3>
+                            <p class="text-zinc-400 text-xs mt-1"><i class="fa-solid fa-location-dot text-[#C5A059] mr-1"></i>Broadway, New York, NY 10036, USA</p>
+                        </div>
+                        <a href="cabang-1.html" class="block text-center bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-bold text-xs py-2.5 rounded transition">
+                            Lihat Detail Cabang 1 <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+
+                    <!-- Cabang 2 -->
+                    <div class="bg-[#1E1E1E] p-5 rounded-xl border border-zinc-800 hover:border-[#C5A059] transition flex flex-col justify-between space-y-4">
+                        <div>
+                            <span class="bg-[#C5A059]/20 text-[#C5A059] text-xs font-bold px-2.5 py-1 rounded">Cabang 2</span>
+                            <h3 class="text-lg font-bold text-white mt-2">Showroom Surabaya</h3>
+                            <p class="text-zinc-400 text-xs mt-1"><i class="fa-solid fa-location-dot text-[#C5A059] mr-1"></i> Jl. Mayjen Sungkono No. 88, Surabaya</p>
+                        </div>
+                        <a href="cabang-2.html" class="block text-center bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-bold text-xs py-2.5 rounded transition">
+                            Lihat Detail Cabang 2 <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+
+                    <!-- Cabang 3 -->
+                    <div class="bg-[#1E1E1E] p-5 rounded-xl border border-zinc-800 hover:border-[#C5A059] transition flex flex-col justify-between space-y-4">
+                        <div>
+                            <span class="bg-[#C5A059]/20 text-[#C5A059] text-xs font-bold px-2.5 py-1 rounded">Cabang 3</span>
+                            <h3 class="text-lg font-bold text-white mt-2">Showroom Bandung</h3>
+                            <p class="text-zinc-400 text-xs mt-1"><i class="fa-solid fa-location-dot text-[#C5A059] mr-1"></i> Jl. Asia Afrika No. 120, Bandung</p>
+                        </div>
+                        <a href="cabang-3.html" class="block text-center bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-bold text-xs py-2.5 rounded transition">
+                            Lihat Detail Cabang 3 <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </details>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#0B0B0B] text-zinc-500 py-6 px-6 text-center border-t border-zinc-800/80 text-sm">
+        <p>&copy; 2026 Alaris Auto. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

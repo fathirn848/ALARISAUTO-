@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Draft Awal - Alaris Auto Showcase</title>
+    <style>
+        /* CSS Dasar - Tata letak awal yang belum disesuaikan */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #222222;
+            margin: 20px;
+        }
+        .nav-sederhana {
+            background-color: #2a2a2a;
+            color: #ffffff;
+            padding: 15px;
+        }
+        .nav-sederhana a {
+            color: #d4af37;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        .kontainer-produk {
+            border: 1px solid #cccccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+        }
+        .gambar-sketsa {
+            width: 250px;
+            height: auto;
+            border: 1px solid #999999;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi Awal -->
+    <div class="nav-sederhana">
+        <h2>ALARIS AUTO SHOWROOM</h2>
+        <a href="#beranda">Beranda</a>
+        <a href="#katalog">Katalog</a>
+        <a href="#keunggulan">Keunggulan</a>
+        <a href="#kontak">Kontak</a>
+    </div>
+
+    <!-- Bagian Beranda Utama -->
+    <div id="beranda" style="margin-top: 25px;">
+        <h1>Draf Tampilan Beranda Utama</h1>
+        <p>Halaman ini memuat informasi singkat mengenai koleksi sedan premium Alaris Auto [1]. Komponen visual dan tata letak masih berupa struktur awal.</p>
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=80" class="gambar-sketsa" alt="Pratinjau Sedan">
+    </div>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- Bagian Katalog Produk Mentah -->
+    <div id="katalog">
+        <h2>Draf Katalog Unit Mobil</h2>
+
+        <!-- Unit 1 -->
+        <div class="kontainer-produk">
+            <h3>1. Chevrolet Camaro</h3>
+            <p><strong>Kategori:</strong> Sport Sedan [2]</p>
+            <p><strong>Harga:</strong> Rp 580.000.000 (OTR Jakarta) [2]</p>
+            <p><strong>Spesifikasi Ringkas:</strong> Mesin 2.5L Turbocharged, 300 HP, Transmisi Otomatis 8-Speed, Kecepatan Maksimum 290 km/jam [2].</p>
+            <p><strong>Pilihan Warna:</strong></p>
+            <form>
+                <input type="radio" id="warna1_a" name="warna1" value="Black Apex" checked>
+                <label for="warna1_a">Black Apex</label><br>
+                <input type="radio" id="warna1_b" name="warna1" value="Crimson Red">
+                <label for="warna1_b">Crimson Red</label><br>
+                <input type="radio" id="warna1_c" name="warna1" value="Gold Metallic">
+                <label for="warna1_c">Gold Metallic</label>
+            </form>
+        </div>
+
+        <!-- Unit 2 -->
+        <div class="kontainer-produk">
+            <h3>2. Volkswagen Polo</h3>
+            <p><strong>Kategori:</strong> SUV Vehicle [3]</p>
+            <p><strong>Harga:</strong> Rp 440.000.000 (OTR Jakarta) [3]</p>
+            <p><strong>Spesifikasi Ringkas:</strong> Performa Mesin V6, Dual Motor AWD, Fitur Autoparking System, Efisiensi 26km/L [3].</p>
+            <p><strong>Pilihan Warna:</strong></p>
+            <form>
+                <input type="radio" id="warna2_a" name="warna2" value="Pearl White" checked>
+                <label for="warna2_a">Pearl White</label><br>
+                <input type="radio" id="warna2_b" name="warna2" value="Obsidian Black">
+                <label for="warna2_b">Obsidian Black</label><br>
+                <input type="radio" id="warna2_c" name="warna2" value="Titanium Grey">
+                <label for="warna2_c">Titanium Grey</label>
+            </form>
+        </div>
+
+        <!-- Unit 3 -->
+        <div class="kontainer-produk">
+            <h3>3. Mercedes-AMG GT</h3>
+            <p><strong>Kategori:</strong> Luxury Hybrid [4]</p>
+            <p><strong>Harga:</strong> Rp 890.000.000 (OTR Jakarta) [4]</p>
+            <p><strong>Spesifikasi Ringkas:</strong> 3.5L Hybrid System, Dual Exhaust, Panoramic Roof, Audio Bose Premium [4].</p>
+            <p><strong>Pilihan Warna:</strong></p>
+            <form>
+                <input type="radio" id="warna3_a" name="warna3" value="Midnight Blue" checked>
+                <label for="warna3_a">Midnight Blue</label><br>
+                <input type="radio" id="warna3_b" name="warna3" value="Champagne Gold">
+                <label for="warna3_b">Champagne Gold</label><br>
+                <input type="radio" id="warna3_c" name="warna3" value="Deep Black">
+                <label for="warna3_c">Deep Black</label>
+            </form>
+        </div>
+    </div>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- Bagian Keunggulan -->
+    <div id="keunggulan">
+        <h2>Draf Keunggulan Utama</h2>
+        <ul>
+            <li>Garansi 5 Tahun untuk mesin dan kelistrikan [1].</li>
+            <li>Servis Gratis 3 Tahun di jaringan bengkel resmi [1].</li>
+            <li>Skema Pembiayaan Kredit dengan bunga rendah [1].</li>
+        </ul>
+    </div>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- Bagian Formulir Kontak -->
+    <div id="kontak">
+        <h2>Formulir Kontak & Test Drive</h2>
+        <form>
+            <label>Nama Lengkap:</label><br>
+            <input type="text" name="nama_lengkap"><br><br>
+            <label>Nomor WhatsApp:</label><br>
+            <input type="text" name="no_wa"><br><br>
+            <label>Model Pilihan:</label><br>
+            <select name="model_pilihan">
+                <option value="">-- Pilih Model --</option>
+                <option value="camaro">Chevrolet Camaro</option>
+                <option value="polo">Volkswagen Polo</option>
+                <option value="amg">Mercedes-AMG GT</option>
+            </select><br><br>
+            <label>Pesan Tambahan:</label><br>
+            <textarea rows="4" cols="40"></textarea><br><br>
+            <button type="button">Kirim Pesan</button>
+        </form>
+    </div>
+
+</body>
+</html>

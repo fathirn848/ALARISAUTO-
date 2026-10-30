@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Cabang 1 - Showroom USA </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#121212] text-zinc-100 flex flex-col min-h-screen">
+
+    <header class="bg-[#1A1A1A] text-white sticky top-0 z-50 border-b border-[#C5A059]/20 shadow-xl">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-widest text-[#C5A059] flex items-center">
+                <i class="fa-solid fa-car-side mr-3"></i>ALARIS AUTO
+            </a>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm tracking-wider uppercase">
+                <a href="index.html" class="hover:text-[#C5A059] transition">Beranda</a>
+                <a href="tentang-kami.html" class="text-[#C5A059] font-bold">Tentang Kami</a>
+                <a href="product.html" class="hover:text-[#C5A059] transition">Katalog Sedan</a>
+                <a href="kontak.html" class="hover:text-[#C5A059] transition">Kontak</a>
+            </nav>
+            <a href="kontak.html" class="bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-semibold px-5 py-2 rounded-md transition shadow-md">Test Drive</a>
+        </div>
+    </header>
+
+    <main class="py-12 px-6 flex-grow container mx-auto">
+        <a href="tentang-kami.html" class="text-[#C5A059] hover:underline text-sm font-semibold flex items-center mb-8">
+            <i class="fa-solid fa-arrow-left mr-2"></i> Kembali ke Tentang Kami & Daftar Cabang
+        </a>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <!-- Foto Showroom -->
+            <div class="bg-[#1E1E1E] p-2 rounded-2xl border border-zinc-800">
+                <img src="garasi.png" alt="Showroom Jakarta" class="w-full h-96 object-cover rounded-xl">
+            </div>
+
+            <div class="space-y-8">
+                <div>
+                    <span class="bg-[#C5A059]/20 text-[#C5A059] text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">Cabang Utama #1</span>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-white mt-3">Showroom USA</h1>
+                    <p class="text-zinc-400 mt-2"><i class="fa-solid fa-location-dot text-[#C5A059] mr-2"></i>Broadway, New York, NY 10036, USA</p>
+                </div>
+
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800 space-y-4">
+                    <h2 class="text-lg font-bold text-white border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-clock text-[#C5A059] mr-2"></i> Jam Operasional & Layanan
+                    </h2>
+                    <div class="grid grid-cols-2 gap-4 text-sm">
+                        <div><p class="text-zinc-500">Senin - Jumat</p><p class="text-white font-bold">08.00 - 20.00 WIB</p></div>
+                        <div><p class="text-zinc-500">Sabtu - Minggu</p><p class="text-white font-bold">09.00 - 18.00 WIB</p></div>
+                        <div><p class="text-zinc-500">Layanan</p><p class="text-white font-bold">Sales, Service, Spareparts</p></div>
+                        <div><p class="text-zinc-500">Fasilitas VIP</p><p class="text-white font-bold">Lounge & Test Drive Arena</p></div>
+                    </div>
+                </div>
+
+                <div class="bg-[#1E1E1E] p-6 rounded-xl border border-zinc-800 space-y-3">
+                    <h2 class="text-lg font-bold text-white border-b border-zinc-800 pb-2 flex items-center">
+                        <i class="fa-solid fa-headset text-[#C5A059] mr-2"></i> Kontak Direct Sales Manager
+                    </h2>
+                    <p class="text-sm text-zinc-300"><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i>WhatsApp: +62 812-1211-2322 (Bpk. Nanda - Manager)</p>
+                    <p class="text-sm text-zinc-300"><i class="fa-solid fa-envelope text-[#C5A059] mr-2"></i>Email: USA@alarisauto.co.id</p>
+                </div>
+
+                <a href="kontak.html" class="block w-full text-center bg-[#C5A059] hover:bg-[#B38F46] text-[#121212] font-extrabold py-4 rounded-xl transition shadow-xl text-lg">
+                    Jadwalkan Kunjungan ke Cabang USA 
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#0B0B0B] text-zinc-500 py-6 px-6 text-center border-t border-zinc-800/80 text-sm">
+        <p>&copy; 2026 Alaris Auto. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
